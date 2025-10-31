@@ -1,1 +1,76 @@
-{}
+[
+    {
+      "label": "carteira_oab",
+      "extraction_schema": {
+        "nome": "Nome do profissional, normalmente no canto superior esquerdo da imagem",
+        "inscricao": "Número de inscrição do profissional",
+        "seccional": "Seccional do profissional",
+        "subsecao": "Subseção à qual o profissional faz parte",
+        "categoria": "Categoria, pode ser ADVOGADO, ADVOGADA, SUPLEMENTAR, ESTAGIARIO, ESTAGIARIA",
+        "endereco_profissional": "Endereço do profissional",
+        "telefone_profissional": "Telefone do profissional",
+        "situacao": "Situação do profissional, normalmente no canto inferior direito."
+      },
+      "pdf_path": "oab_1.pdf"
+    },
+    {
+      "label": "carteira_oab",
+      "extraction_schema": {
+        "nome": "Nome do profissional, normalmente no canto superior esquerdo da imagem",
+        "inscricao": "Número de inscrição do profissional",
+        "seccional": "Seccional do profissional",
+        "subsecao": "Subseção à qual o profissional faz parte",
+        "categoria": "Categoria, pode ser ADVOGADO, ADVOGADA, SUPLEMENTAR, ESTAGIARIO, ESTAGIARIA",
+        "endereco_profissional": "Endereço do profissional",
+        "situacao": "Situação do profissional, normalmente no canto inferior direito."
+      },
+      "pdf_path": "oab_2.pdf"
+    },
+    {
+      "label": "carteira_oab",
+      "extraction_schema": {
+        "nome": "Nome do profissional, normalmente no canto superior esquerdo da imagem",
+        "inscricao": "Número de inscrição do profissional",
+        "seccional": "Seccional do profissional",
+        "subsecao": "Subseção à qual o profissional faz parte",
+        "categoria": "Categoria, pode ser ADVOGADO, ADVOGADA, SUPLEMENTAR, ESTAGIARIO, ESTAGIARIA",
+        "telefone_profissional": "Telefone do profissional",
+        "situacao": "Situação do profissional, normalmente no canto inferior direito."
+      },
+      "pdf_path": "oab_3.pdf"
+    },
+    {
+      "label": "tela_sistema",
+      "extraction_schema": {
+        "data_base": "Data base da operação selectionada",
+        "data_verncimento": "Data de vencimento da operação selectionada",
+        "quantidade_parcelas": "Quantidade de parcelas da operação selectionada",
+        "produto": "Produto da operação selectionada",
+        "sistema": "Sistema da operação selectionada",
+        "tipo_de_operacao": "Tipo de operação",
+        "tipo_de_sistema": "Tipo de sistema"
+      },
+      "pdf_path": "tela_sistema_1.pdf"
+    },
+    {
+      "label": "tela_sistema",
+      "extraction_schema": {
+        "pesquisa_por": "Na consulta de cobrança, a pesquisa é efetuado por? Ela pode ser feita por cliente, parente, prestador ou outro",
+        "pesquisa_tipo": "Tipo de pesquisa, pode ser por cpf, cnpj, Nome ou email",
+        "sistema": "Sistema da operação selectionada",
+        "valor_parcela": "Valor da parcela da operação selectionada",
+        "cidade": "Cidade da operação selectionada"
+      },
+      "pdf_path": "tela_sistema_2.pdf"
+    },
+    {
+      "label": "tela_sistema",
+      "extraction_schema": {
+        "data_referencia": "Data de referencia da operação selectionada do detalhamento de saldos por parcelas",
+        "selecao_de_parcelas": "Seleção de parcelas da operação selectionada do detalhamento de saldos por parcelas, pode ser vencido, pago ou pendente",
+        "total_de_parcelas": "Valor total, normalmente no canto inferior esquerdo da imagem"
+      },
+      "pdf_path": "tela_sistema_3.pdf"
+    }
+  ]
+  
